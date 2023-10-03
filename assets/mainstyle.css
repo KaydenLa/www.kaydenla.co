@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    background-color: #4d4d4d;
+    color: #ffd2cd;
+}
+.padding{
+    padding-left:3vw;
+    padding-right: 3vw;
+}
+.navigation_padding{
+    background-color: rgb(67 40 39);
+    height:auto;
+    padding-left: 1vw;
+    padding-right:1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav_div{
+    display: flex;
+    column-gap: 1em;
+}
+.login1{
+    display: block;
+}
+.login2{
+    display: none;
+}
+.login1:hover{
+    display:none;
+}
+.login1:hover + .login2{
+    display: block;
+}
+
+.menu1{
+    display:block;
+}
+.menu2{
+    display:none;
+}
+.menu1:hover{
+    display:none;
+}
+.menu1:hover + .menu2{
+    display:block;
+}
+
+
+/* Flex box tutorial - https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Aligning_Items_in_a_Flex_Container */
