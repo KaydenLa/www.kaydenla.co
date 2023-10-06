@@ -19,6 +19,7 @@
       </div>
       <div style="text-align: left;">
         <h2><a href="/preview">Preview DBMS Structure</a></h2>
+        <h2><a href="/view-customer">view-customer</a></h2>
         <h2><a href="/erd">DBMS ERD</a></h2>
         <h2>
           Services deployed here include:
