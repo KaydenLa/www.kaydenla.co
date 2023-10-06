@@ -43,12 +43,14 @@ CREATE TABLE CUSTOMER(
     ADDRESS VARCHAR(255),
     PRIMARY KEY (CUSTOMER_ID)
 );
--- IPL: INVOICE PACKAGE LIST
-CREATE TABLE IPL(
+-- IPL: ITEM INVOICE PACKAGE LIST
+CREATE TABLE IIPL(
 	AUTO_IPL_ID int not null,
+    ITEM_ID int NOT NULL,
     INVOICE_ID int null null,
     PACKAGE_ID int not null,
     primary  key (AUTO_IPL_ID),
+    foreign key (ITEM_ID) references ITEM(ITEM_ID),
     foreign key (INVOICE_ID) references INVOICE(INVOICE_ID),
     foreign key (PACKAGE_ID) references PACKAGE(PACKAGE_ID)
 );
