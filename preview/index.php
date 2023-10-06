@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Preview DBMS!</title>
+    <?php
+        include '/opt/bitnami/apache/htdocs/partials/head.php';
+    ?>
+    <title>DBMS Structure</title>
 </head>
 <body>
+    <?php
+        include '/opt/bitnami/apache/htdocs/partials/nav.php';
+    ?>
+
         <h1>Overview of DBMS</h1>
     <div>
     <?php
     include '/home/bitnami/creds/conn.php';
-    $items = ["WAREHOUSE","ITEM","INVOICE","CUSTOMER","TRUCK"];
+    $items = ["WAREHOUSE","WHIL","ITEM","IIL","INVOICE","CUSTOMER","IIPL","PACKAGE","PTL","TRUCK","EMPLOYEE"];
     foreach($items as $current_table){
         sqlquery($current_table, $con); 
 
