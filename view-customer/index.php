@@ -29,16 +29,20 @@
     $fromwhere = "CUSTOMER_ID";
     $value = 538;
     $invoice_id = sqlquery($selected, $table, $fromwhere, $value, $con); 
-    echo $invoice_id;
 
-    echo "<br><br>Item Number:<br>";
+    echo "<br><br>Item ID:<br>";
     $selected = "ITEM_ID";
     $table = "IIL";
     $fromwhere = "INVOICE_ID";
     $value = $invoice_id;
     $item_id = sqlquery($selected, $table, $fromwhere, $value, $con); 
-    echo $item_id;
 
+    echo "<br><br>Item Name:<br>";
+    $selected = "ITEM_NAME";
+    $table = "ITEM";
+    $fromwhere = "ITEM_ID";
+    $value = $item_id;
+    $item_name = sqlquery($selected, $table, $fromwhere, $value, $con); 
 
 
     function sqlquery($selected, $table, $fromwhere, $value, $con){

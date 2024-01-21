@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <?php
+        include '/opt/bitnami/apache/htdocs/partials/head.php';
+    ?>
+    <title>Ninja Matcha - A Tasty and Aesthetic Tea House - HTX</title>
+	<link rel="stylesheet" href="http://kaydenla.co/blog/ninja-matcha/style.css">
+</head>
+  <body>
+  <?php
+        include '/opt/bitnami/apache/htdocs/partials/nav.php';
+    ?>
+    <div class="padding">
+      <div style="text-align: center;">
+        <h1>
+         <b style="color: #9affa3;">Ninja Matcha</b><br>
+	<p style="color: #2fab3a;">Bellaire Blvd, Houston, Texas
+        </p>
+	</h1>
+	<div class="container" style="float:left;">
+		<div class="img-wrapper">
+		<img src="https://kaydenla.co/images/ccc8159d-d088-41d5-0f68-f081b2d13300/width=256" alt="Cover Page for Ninja Matha, Person holding keys" width="200" style="float:left">
+      		</div>
+	</div>
+</div>
+      <div style="text-align: left;">
+	Located within the within the heart of Bellaire, right off the Sam Houston Tollway (Interstat 10), Ninja Matcha is a delectable tea house.<br>
+	As the name implies, Ninja Matcha focuses primarily offers Matcha bassed products. The most commonly ordered product is their Matcha Tea. These teas come in a variety of diffrent combinations and flavors. They offer several different milk alternatives (such as oat and almond) as well as different additive syrups (such as lavendar and manga). These syrups are added into the drink and stirred in at a reasonable upcharge.<br> Beyond teas, Ninja Matcha also offers Crepe Cakes and Matcha ice cream.
+	</div>        
+<h2 style="text-align: center;">
+		Location
+        </h2> 
+<div class="container" style="float:right;"> <div class="img-wrapper">
+	<img src="https://kaydenla.co/images/31b89384-d95f-4ad8-c7f3-cf959b114f00/width=256" alt="Ninja Matcha Building Front" width="200">
+</div></div>	
+Ninja Matcha is located at 9889 Bellaire Blvd Suite D-220, Houston, TX 77036.<br>
+	A key driver for the success of tasty tea house is the prime location within the Dun Huang Plaza. This plaza is a common attraction and meeting place for all groups of people.The Dun Huang plaza is a vital part of the community and frequently makes improvemens for their visitors. As recently as Winter 2023, the plaza made major upgrade in public space amenities by creating a picnic center within the middle of the plaza. This new attraction is complete with five benches that are full of art created by the local community.<br>
+	It is important to note that due to the high visitor count that the plaza receives, parking may be abnormal. To combat the influx of visitors (especially during the weekends) Dun Huang Plaza is completed by two multistory parking garages. Thanks to the use of these well-kept garages, parking is always available and near each store. Gone is the need to park far away near the less popular locations.
+	<div>
+		<h2 style="text-align: center;">
+			Drinks
+		</h2>
+	<div class="container" style="float:left;"><div class="img-wrapper">
+		<img src="https://kaydenla.co/images/38be9902-daf6-4214-98e2-f3334b2d2900/width=256" alt="Drinks and Ice Cream" width="200">
+	</div></div>
+	The drinks at Ninja Matcha are considered a specialty. A huge benefit to this location is that they allow customers to customize the intensity of the Matcha flavor. Along with this, Ninja Matcha prides themselves with only using matcha imported from Japan- the origin of the tea. Critics of tea houses generally find that the country of origin, growing techniques, and storage all heavily affect the resulting flavor and color of the tea. People that want to experience the most authentic version of Matcha while in the Greater Houstin Area, will be happy to find these quality of ingredients and attention to detail.
+	</div>
+	<div>
+		<h2 style="text-align:center;">
+			Foods
+		</h2>
+		Along with speciality teas, Ninja Matcha offers desserts such as ice cream and  crepe cakes. Naturally, their is only one flavor option: matcha. To make up for the lack of flavor choices, they offer the ice cream in four different intensities levels. Level one isn the weakest flavor and contains the least amount of matcha. Level 2, 3, and 4 consecutively contain more concentrated levels of matcha powrder mixed into the ice cream. As an important note, matcha contains caffeine. Parents and those sensitive to caffeine should be aware of the extra caffeine content that naturally comes with the increased concentration of matcha. Personally, I find that level 2 and 3 matcha contain a good balance of intesntity and creaminess.
+	</div>
+	<div>
+		<h2 style="text-align:center;">
+			The Vibe
+		</h2>
+	<div class="container" style="float:right;"><div class="img-wrapper">
+		<img src="https://kaydenla.co/images/b8d6794b-021b-482f-f007-dfd14447fc00/width=256" alt="Painting on Ninja Matcha Right Wall" width="200">
+	</div></div>	
+	Ninja Matcha is a very laid environment that is good for both studying  or socializing. There are many tables to study at, complete with power outlets nearby for those needing a charge. There is also a stool and bartop inside the store at the front entrace, facing outside to the plaza. Upon entering the store, to the right is a huge mural the size of a wall. This mural is stylized and contains a cute Japanese setting.
+	</div>
+
+<div class="Spacer-for-fluidImg"></div>
+
+
+<div class="modal"> <div class="modal-img"> <div style=" position:fixed; z-index:4; margin: auto; height: 100vh; width: 42rem; display:flex;justify-content:right;"> <div class="imgButtons"> <a class="modal-img-download" href="" download="Name"><button type = "button"> Download </button></a> <button class="closebutton">Close</button> </div> </div> <img src="#" alt="" style="z-index:2; position: absolute;"/> </div> </div>
+
+
+ </div>
+    </div>
+   <script src="http://kaydenla.co/blog/ninja-matcha/script.js"></script>
+  </body>
+</html>

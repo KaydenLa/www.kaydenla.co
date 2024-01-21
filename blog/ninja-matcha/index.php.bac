@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <?php
+        include '/opt/bitnami/apache/htdocs/partials/head.php';
+    ?>
+    <title>Ninja Matcha - A Tasty and Aesthetic Tea House - HTX</title>
+  </head>
+  <body>
+  <?php
+        include '/opt/bitnami/apache/htdocs/partials/nav.php';
+    ?>
+    <div class="padding">
+      <div style="text-align: center;">
+        <h1>
+         <b>Ninja Matcha</b><br>
+	Bellaire Blvd, Houston, Texas
+        </h1>
+
+	<img src="https://imagedelivery.net/UM7D0Nco8iEpdCrVzQrsNg/ccc8159d-d088-41d5-0f68-f081b2d13300/width=256" alt="Cover Page for Ninja Matha, Person holding keys" width="200" style="float:left">
+      </div>
+      <div style="text-align: left;">
+	Located within the within the heart of Bellaire, right off the Sam Houston Tollway (Interstat 10), Ninja Matcha is a delectable tea house.<br>
+	As the name implies, Ninja Matcha focuses primarily offers Matcha bassed products. The most commonly ordered product is their Matcha Tea. These teas come in a variety of diffrent combinations and flavors. They offer several different milk alternatives (such as oat and almond) as well as different additive syrups (such as lavendar and manga). These syrups are added into the drink and stirred in at a reasonable upcharge.<br> Beyond teas, Ninja Matcha also offers Crepe Cakes and Matcha ice cream.
+	</div>        
+<h2 style="text-align: center;">
+		Location
+        </h2> 
+	<img src="https://imagedelivery.net/UM7D0Nco8iEpdCrVzQrsNg/273a955f-89a7-418a-310a-ec3ed889bb00/width=256" alt="Ninja Matcha Building Front" width="200" style="float:right">
+	Ninja Matcha is located at 9889 Bellaire Blvd Suite D-220, Houston, TX 77036.<br>
+	A key driver for the success of tasty tea house is the prime location within the Dun Huang Plaza. This plaza is a common attraction and meeting place for all groups of people.The Dun Huang plaza is a vital part of the community and frequently makes improvemens for their visitors. As recently as Winter 2023, the plaza made major upgrade in public space amenities by creating a picnic center within the middle of the plaza. This new attraction is complete with five benches that are full of art created by the local community.<br>
+	It is important to note that due to the high visitor count that the plaza receives, parking may be abnormal. To combat the influx of visitors (especially during the weekends) Dun Huang Plaza is completed by two multistory parking garages. Thanks to the use of these well-kept garages, parking is always available and near each store. Gone is the need to park far away near the less popular locations.
+      </div>
+    </div>
+  </body>
+</html>

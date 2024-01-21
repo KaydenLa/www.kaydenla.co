@@ -1,0 +1,13 @@
+#window {
+float: left;  
+display: inline-block; width: 200px; height: 200px; border: 1px solid #000000; background-image: 
+  url('https://imagedelivery.net/UM7D0Nco8iEpdCrVzQrsNg/ccc8159d-d088-41d5-0f68-f081b2d13300/width=12'); 
+  background-repeat: no-repeat; background-size: 100% 100%; transition:width 1s, height 1s; 
+  -moz-transition:width 1s, height 1s; -webkit-transition:width 1s, height 1s; -o-transition:width 
+  .5s, height .5s; cursor: -moz-zoom-in; cursor: zoom-in;
+}
+#window:hover {
+  width: 512px; height: 512px; background-image: 
+  url("https://imagedelivery.net/UM7D0Nco8iEpdCrVzQrsNg/ccc8159d-d088-41d5-0f68-f081b2d13300/width=2000"); 
+  background-repeat: no-repeat; background-size: 100% 100%; cursor: -moz-zoom-out; cursor: zoom-out;
+}

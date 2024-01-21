@@ -48,7 +48,6 @@ a:active{
 .login1:hover + .login2{
     display: block;
 }
-
 .menu1{
     display:block;
 }
